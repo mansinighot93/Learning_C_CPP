@@ -1,6 +1,7 @@
-#include "./Header_Files/Climate.h"
+#include "Climate.h"
+
 struct Greenhouse{
     char name[50];
-    char location;
+    char location[50];
     struct Climate currentClimate;
 };
