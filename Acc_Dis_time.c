@@ -15,7 +15,6 @@ void ClimateTime(){
     time(&currentTime);
     struct tm *  localTime=localtime(&currentTime);
     printf("\nCurrent Date and Time: %s \n", asctime(localTime));
-
 }
 void display(struct ClimateControl cc) {
     
