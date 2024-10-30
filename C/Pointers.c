@@ -39,4 +39,5 @@ int main(){
 
     free(ptr);
     free(ptrPoint);
+
 }
