@@ -10,9 +10,8 @@ int main() {
     printf("Value of c1 = %d + %di\n", c1.real, c1.imag);
     printf("Value of c2 = %d + %di\n", c2.real, c2.imag);
 
-    struct Greenhouse g1 = {"Manasi", "Pune", {25.6, 45.0, 5000.0}};;
-    printf("%d",g1);
+    struct Greenhouse g1 = {"Ajinkya","Pune", {25.6, 45.0, 5000.0}};;
+    printf(g1.name,g1.location,g1.currentClimate);
     
-
     return 0;
 }
