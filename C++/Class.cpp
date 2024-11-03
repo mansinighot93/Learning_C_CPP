@@ -40,5 +40,6 @@ int main(){
     
     Point * ptrPoint = new Point(100,200);
     cout << ptrPoint->getx() << "," <<ptrPoint->gety()<<"\n";
+    delete ptrPoint;
     return 0;
 }
